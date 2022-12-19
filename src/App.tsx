@@ -18,7 +18,7 @@ function App() {
 
     peer.on("call", (call) => {
       const constraints = {
-        // audio: true,
+        audio: true,
         video: true,
       };
       navigator.mediaDevices
@@ -39,7 +39,7 @@ function App() {
 
   const call = (remotePeerId: string) => {
     const constraints = {
-      // audio: true,
+      audio: true,
       video: true,
     };
 
